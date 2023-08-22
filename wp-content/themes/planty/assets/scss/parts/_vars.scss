@@ -1,0 +1,36 @@
+$black: #242424;
+$border-white: rgba(255, 255, 255, 0.5);
+$card_borders: #f3f3f3;
+$grey: #fafafa;
+$blue: #0099d4;
+$form_borders_color: #8c8c8c;
+$primary-color: #0099d4;
+$primary-color-trans: rgba(0, 152, 212, 0.65);
+$primary-bis-color: #0093bd;
+$primary-bis-color-trans: rgba(0, 147, 189, 0.65);
+$quaternary-color: #004964;
+$secondary-color: #e0e636;
+$secondary-color-trans: rgba(224, 230, 54, 0.65);
+$slider_btn_color: #dbdbdb;
+$tertiary-color: #ef7d00;
+$tertiary-color-trans: rgba(239, 123, 0, 0.65);
+$title-backgrounded-color: #f9f9f9;
+$transparent: #ffffff00;
+$menuShadowColor: #232c2a33;
+$white: #ffffff;
+
+$darkTitleColor: $white;
+$titleColor: $white;
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 1,
+    2: $spacer * 2,
+    3: $spacer * 3,
+    4: $spacer * 4,
+    5: $spacer * 5,
+    10: $spacer * 10,
+);
+
+$sectionSpace: 7rem;

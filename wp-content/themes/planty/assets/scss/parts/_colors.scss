@@ -1,0 +1,130 @@
+/* FONT COLOR */
+.color-white {
+    color: $white !important;
+}
+
+.color-black {
+    color: $black !important;
+}
+.color-blue {
+    color: #009ed4 !important;
+}
+.color-primary {
+    color: $primary-color !important;
+}
+
+.color-primary-bis {
+    color: $primary-bis-color !important;
+}
+
+.color-secondary {
+    color: $secondary-color !important;
+}
+
+.color-tertiary {
+    color: $tertiary-color !important;
+}
+
+.color-quaternary {
+    color: $quaternary-color !important;
+}
+
+.title-backgrounded-color {
+    color: $title-backgrounded-color;
+}
+
+/* BACKGROUND COLOR */
+.bg-color-1 {
+    background-color: $primary-color-trans;
+}
+
+.bg-color-2 {
+    background-color: $secondary-color-trans;
+}
+
+.bg-color-3 {
+    background-color: $tertiary-color-trans;
+}
+
+.bg-color-4 {
+    background-color: $primary-bis-color-trans;
+}
+
+.bg-color-white {
+    background-color: $white !important;
+}
+
+.bg-color-black {
+    background-color: $black !important;
+}
+
+.bg-color-grey {
+    background-color: $grey !important;
+}
+
+.bg-color-grey-half {
+    background: linear-gradient(to bottom, $grey 75%, $white 25%);
+}
+
+.bg-color-blue,
+.bg-color-primary {
+    background-color: $primary-color !important;
+}
+
+.bg-color-primary-bis {
+    background-color: $primary-bis-color !important;
+}
+
+.bg-color-secondary {
+    background-color: $secondary-color !important;
+}
+
+.bg-color-tertiary {
+    background-color: $tertiary-color !important;
+}
+
+.bg-color-quaternary {
+    background-color: $quaternary-color !important;
+}
+
+.bg-contact-color {
+    background-color: #242424 !important;
+}
+
+/* Bordures bottom */
+.bb-primary {
+    border-bottom: 2px solid $primary-color;
+}
+
+.bb-primary-bis {
+    border-bottom: 2px solid $primary-bis-color;
+}
+
+.bb-secondary {
+    border-bottom: 2px solid $secondary-color;
+}
+
+.bb-tertiary {
+    border-bottom: 2px solid $tertiary-color;
+}
+
+.bs-white {
+    border-left: 1px solid $border-white;
+}
+
+/* Bordures */
+.border-primary {
+    border: 4px solid $primary-color;
+}
+
+.border-primary-bis {
+    border: 4px solid $primary-bis-color;
+}
+
+.border-secondary {
+    border: 4px solid $secondary-color;
+}
+
+.border-tertiary {
+    border: 4px solid $tertiary-color;
+}

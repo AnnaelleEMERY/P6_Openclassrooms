@@ -1,0 +1,470 @@
+.btn-primary,
+.wp-block-buttons .wp-block-button__link {
+    padding: 1rem 3.2rem;
+    border: 1px solid $black;
+    border-radius: 0;
+    background-color: $white;
+    color: $black;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+        border: 1px solid $black;
+    }
+}
+
+.btn-black {
+    padding: 1rem 3.2rem;
+    border: 1px solid $black;
+    background-color: $black;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+        border: 1px solid $black;
+    }
+}
+
+.btn-primary-trans {
+    padding: 1rem 3.2rem;
+    border: 1px solid $black;
+    background-color: $transparent;
+    color: $black;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+        border: 1px solid $black;
+    }
+}
+
+.box-shadow-primary:before {
+    content: "";
+    background-color: $primary-color;
+    margin-right: 31rem;
+    margin-top: 2rem;
+    max-width: 60.8rem;
+    position: absolute;
+    width: 100%;
+    height: 17.6rem;
+    z-index: 1;
+
+    @include media-breakpoint-down(lg) {
+        margin-right: 29.5rem;
+    }
+
+    @media (max-width: 899px) {
+        margin-right: 28rem;
+    }
+}
+
+.box-shadow-secondary:before {
+    content: "";
+    background-color: $secondary-color;
+    margin-right: 31rem;
+    margin-top: 2rem;
+    max-width: 60.8rem;
+    position: absolute;
+    width: 100%;
+    height: 17.6rem;
+    z-index: 1;
+
+    @include media-breakpoint-down(lg) {
+        margin-right: 29.5rem;
+    }
+
+    @media (max-width: 899px) {
+        margin-right: 28rem;
+    }
+}
+
+.box-shadow-tertiary:before {
+    content: "";
+    background-color: $tertiary-color;
+    margin-right: 31rem;
+    margin-top: 2rem;
+    max-width: 60.8rem;
+    position: absolute;
+    width: 100%;
+    height: 17.6rem;
+    z-index: 1;
+
+    @include media-breakpoint-down(lg) {
+        margin-right: 29.5rem;
+    }
+
+    @media (max-width: 899px) {
+        margin-right: 28rem;
+    }
+}
+
+main {
+    overflow: hidden !important;
+}
+
+// Images
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+// Ajouts de classes
+
+//widths
+.w-lg-50 {
+    @include media-breakpoint-up(lg) {
+        width: 50% !important;
+    }
+}
+
+// margins
+.me-lg-12 {
+    @include media-breakpoint-up(lg) {
+        margin-right: 12rem !important;
+    }
+}
+
+.ms-1-5 {
+    margin-left: 1.5rem !important;
+}
+.ms-2-5 {
+    margin-left: 2.5rem !important;
+}
+.ms-sm-3-5 {
+    @include media-breakpoint-up(sm) {
+        margin-left: 3.5rem !important;
+    }
+}
+.ms-lg-12 {
+    @include media-breakpoint-up(lg) {
+        margin-left: 12rem !important;
+    }
+}
+
+.mt-1-5 {
+    margin-top: 1.5rem !important;
+}
+.mt-lg-auto {
+    @media (min-width: 960px) and (max-width: 991px) {
+        margin-top: auto !important;
+    }
+}
+.mt-sm-9 {
+    @include media-breakpoint-up(sm) {
+        margin-top: 9rem !important;
+    }
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+.mb-7 {
+    margin-bottom: 7rem !important;
+}
+.mb-8 {
+    margin-bottom: 8rem !important;
+}
+.mb-9 {
+    margin-bottom: 9rem !important;
+}
+
+.mb-1-5 {
+    margin-bottom: 1.5rem !important;
+}
+.mb-3-5 {
+    margin-bottom: 3.5rem !important;
+}
+.mb-sm-9 {
+    @include media-breakpoint-up(sm) {
+        margin-bottom: 9rem !important;
+    }
+}
+
+.mt-inverse-13 {
+    margin-top: -13rem !important;
+}
+
+// paddings
+.px-less-sm-2 {
+    @include media-breakpoint-down(sm) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+.px-lg-10 {
+    @include media-breakpoint-up(lg) {
+        padding-left: 10rem !important;
+        padding-right: 10rem !important;
+    }
+}
+.px-8 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+}
+.px-xl-8 {
+    @include media-breakpoint-up(xl) {
+        padding-left: 8rem !important;
+        padding-right: 8rem !important;
+    }
+}
+.px-less-sm-2 {
+    @include media-breakpoint-down(sm) {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+.ps-lg-4-5 {
+    @include media-breakpoint-up(lg) {
+        padding-left: 4.5rem !important;
+    }
+}
+.ps-md-6 {
+    @include media-breakpoint-up(md) {
+        padding-left: 6rem !important;
+    }
+}
+.ps-lg-6 {
+    @include media-breakpoint-up(lg) {
+        padding-left: 6rem !important;
+    }
+}
+.ps-7 {
+    padding-left: 7rem !important;
+}
+.ps-md-7 {
+    @include media-breakpoint-up(md) {
+        padding-left: 7rem !important;
+    }
+}
+.ps-9 {
+    padding-left: 9rem !important;
+}
+.ps-sm-9 {
+    @include media-breakpoint-up(sm) {
+        padding-left: 9rem !important;
+    }
+}
+.ps-lg-9 {
+    @include media-breakpoint-up(lg) {
+        padding-left: 9rem !important;
+    }
+}
+
+.pt-3-5 {
+    padding-top: 3.5rem !important;
+}
+.pt-6 {
+    @include media-breakpoint-up(sm) {
+        padding-bottom: 6rem !important;
+    }
+}
+.pt-7 {
+    padding-top: 7rem !important;
+}
+.pt-section-7-5 {
+    @include media-breakpoint-up(lg) {
+        padding-top: 7.5rem !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding-top: 5rem !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 4rem !important;
+    }
+}
+
+.pe-md-6 {
+    @include media-breakpoint-up(md) {
+        padding-right: 6rem !important;
+    }
+}
+.pe-lg-7 {
+    @include media-breakpoint-up(lg) {
+        padding-right: 7rem !important;
+    }
+}
+.pe-9 {
+    padding-right: 9rem !important;
+}
+.pe-md-9 {
+    @include media-breakpoint-up(md) {
+        padding-right: 9rem !important;
+    }
+}
+.pe-sm-9 {
+    @include media-breakpoint-up(sm) {
+        padding-right: 9rem !important;
+    }
+}
+
+.pb-5-5 {
+    padding-bottom: 5.5rem !important;
+}
+.pb-md-16 {
+    @include media-breakpoint-up(md) {
+        padding-bottom: 16rem !important;
+    }
+}
+
+.pb-section-7-5.pb-20,
+.pb-20 {
+    padding-bottom: 20rem !important;
+}
+
+.py-sm-5-6 {
+    @include media-breakpoint-up(sm) {
+        padding-top: 5.6rem !important;
+        padding-bottom: 5.6rem !important;
+    }
+}
+.py-6 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.py-7 {
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+}
+
+// texts
+.fw-bold {
+    font-weight: 700 !important;
+}
+.fw-heavy {
+    font-weight: 900 !important;
+}
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.lh-27 {
+    line-height: 27px !important;
+}
+
+// Espaces pour les blocs (responsive)
+.pt-section-7-5 {
+    @include media-breakpoint-up(lg) {
+        padding-top: 7.5rem !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding-top: 5rem !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 4rem !important;
+    }
+}
+
+// Espaces pour les blocs (responsive)
+.pb-section-7-5 {
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 7.5rem !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 5rem !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 4rem !important;
+    }
+}
+
+// Espaces pour les blocs (responsive)
+.py-section-7-5 {
+    @include media-breakpoint-up(lg) {
+        padding-top: 7.5rem !important;
+        padding-bottom: 7.5rem !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+}
+
+.mt-section-13 {
+    margin-top: 13rem !important;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 9rem !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 7rem !important;
+    }
+}
+
+// Font-size
+.font-size-1-7 {
+    font-size: 1.7rem !important;
+}
+.font-size-1-8 {
+    font-size: 1.8rem !important;
+}
+.font-size-2 {
+    font-size: 2rem !important;
+}
+.font-size-2-2 {
+    font-size: 2.2rem !important;
+}
+
+.font-size-3-8 {
+    font-size: 3.8rem !important;
+}
+
+//col
+.col-less-md-12 {
+    @include media-breakpoint-down(md) {
+        flex: 0 0 auto;
+        width: 100%;
+
+        border: none;
+        padding-left: 0rem !important;
+    }
+}
+.column-lg-reverse {
+    @include media-breakpoint-down(lg) {
+        flex-direction: column-reverse;
+    }
+}
+
+// borders
+.big-primary-borders {
+    border: 5rem solid $primary-color;
+
+    @include media-breakpoint-down(sm) {
+        border-width: 3rem;
+    }
+}
+.big-secondary-borders {
+    border: 5rem solid $secondary-color;
+
+    @include media-breakpoint-down(sm) {
+        border-width: 3rem;
+    }
+}
+.big-tertiary-borders {
+    border: 5rem solid $tertiary-color;
+
+    @include media-breakpoint-down(sm) {
+        border-width: 3rem;
+    }
+}
