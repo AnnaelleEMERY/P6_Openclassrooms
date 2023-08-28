@@ -1,0 +1,13 @@
+footer {
+    .menu-menu-footer-container {
+        padding: 2rem 4rem !important;
+
+        .footer-nav li {
+            padding-bottom: 0.1rem !important;
+
+            a:hover {
+                color: $tertiaryColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+/* FONT COLOR */
+.color-white {
+    color: $white !important;
+}
+
+.color-black {
+    color: $black !important;
+}
+
+.primary-color {
+    color: $primaryColor !important;
+}
+
+.secondary-color {
+    color: $secondaryColor !important;
+}
+
+.tertiary-color {
+    color: $tertiaryColor !important;
+}
+
+.button-prim-color {
+    color: $buttonPrimColor !important;
+}
+
+.button-sec-color {
+    color: $buttonSecColor !important;
+}
+
+.hover-color {
+    color: $hoverColor !important;
+}
+
+.shadow-color {
+    color: $shadowColor !important;
+}
+
+/* BACKGROUND COLOR */
+.bg-primary {
+    background-color: $primaryColor;
+}
+
+.bg-secondary {
+    background-color: $secondaryColor;
+}
+
+.bg-btn-primary {
+    background-color: $buttonPrimColor;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
+}
+
+.bg-btn-secondary {
+    background-color: $buttonSecColor;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
+}

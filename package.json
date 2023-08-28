@@ -3,13 +3,12 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "start": "webpack --watch",
-        "build": "webpack"
+        "scss": "sass --watch wp-content/themes/PlantyTheme/scss/global.scss:wp-content/themes/PlantyTheme/build/global.css"
     },
     "devDependencies": {
-        "bootstrap": "^5.3.1"
+        "bootstrap": "^5.3.1",
+        "node-sass": "^9.0.0"
     },
-    "main": "webpack.config.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AnnaelleEMERY/P6_Openclassrooms.git"

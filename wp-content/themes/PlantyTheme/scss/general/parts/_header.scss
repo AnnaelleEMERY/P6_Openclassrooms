@@ -1,0 +1,28 @@
+header {
+    .menu-menu-principal-container .main-nav li {
+        padding-bottom: 0.1rem !important;
+
+        a:hover {
+            color: $tertiaryColor;
+        }
+    }
+
+    .admin-button {
+        padding: 2rem 4rem 2rem 5rem !important;
+    }
+
+    .commander-button {
+        padding: 2rem 4rem !important;
+        background-color: $buttonPrimColor;
+        color: $white;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: "Syne";
+        letter-spacing: 0rem;
+        font-size: 1.6rem;
+
+        &:hover {
+            background-color: $hoverColor;
+        }
+    }
+}

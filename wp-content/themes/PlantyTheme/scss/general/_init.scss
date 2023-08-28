@@ -1,0 +1,102 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    color: $black;
+    font-family: "Syne";
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: normal;
+}
+
+.h1,
+h1 {
+    color: $tertiaryColor;
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 4.56rem;
+
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+    }
+}
+
+.h2,
+h2 {
+    color: $primaryColor;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.6rem;
+
+    @include media-breakpoint-down(md) {
+        font-size: 2.6rem;
+    }
+}
+
+.h3,
+h3 {
+    color: $tertiaryColor;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+
+    @include media-breakpoint-down(md) {
+        font-size: 2.6rem;
+    }
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+
+ul li a {
+    color: $black;
+    font-size: 1.6rem;
+    text-decoration: none;
+    line-height: 1.5;
+
+    p {
+        margin-bottom: 0rem;
+        line-height: 1.5;
+    }
+
+    :hover {
+        color: $tertiaryColor !important;
+    }
+}
+
+a {
+    color: $black;
+    font-size: 1.6rem;
+    text-decoration: none;
+    line-height: 1.5;
+
+    p {
+        margin-bottom: 0rem;
+    }
+
+    :hover {
+        color: $tertiaryColor !important;
+    }
+}

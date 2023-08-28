@@ -398,7 +398,7 @@ class Forminator_Admin_Addons_page {
 				'log'     => '<p>- First public release</p>',
 			),
 		);
-		$stripe_addon->pro_url = 'https://wpmudev.com/project/forminator-pro/?coupon=FORMINATOR-SUBSCRIPTIONS&checkout=0&utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_stripe-addon';
+		$stripe_addon->pro_url = 'https://wpmudev.com/project/forminator-pro/?utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_stripe-addon';
 
 		// PDF Addon
 		$pdf_addon                    = new stdClass();
@@ -430,7 +430,7 @@ class Forminator_Admin_Addons_page {
 				'log'     => '<p>- First public release</p>',
 			),
 		);
-		$pdf_addon->pro_url = 'https://wpmudev.com/project/forminator-pro/?coupon=FORMINATOR-PDF&checkout=0&utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_pdf-addon';
+		$pdf_addon->pro_url = 'https://wpmudev.com/project/forminator-pro/?utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_pdf-addon';
 
 		return array(
 			$stripe_addon,
@@ -482,27 +482,5 @@ class Forminator_Admin_Addons_page {
 		$upsell_info['pdf_header_image'] = esc_url( forminator_plugin_url() . 'assets/images/pdf-header.png' );
 
 		return $upsell_info;
-	}
-
-	/**
-	 * Get project coupon
-	 *
-	 * @param $addon_slug
-	 *
-	 * @return string
-	 */
-	public static function project_coupon( $addon_slug ) {
-		switch ( $addon_slug ) {
-			case 'stripe':
-				$coupon = 'FORMINATOR-SUBSCRIPTIONS';
-				break;
-			case 'pdf':
-				$coupon = 'FORMINATOR-PDF';
-				break;
-			default:
-				$coupon = '';
-		}
-
-		return $coupon;
 	}
 }

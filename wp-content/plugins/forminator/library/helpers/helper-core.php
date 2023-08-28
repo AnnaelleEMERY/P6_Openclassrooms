@@ -1433,7 +1433,7 @@ function forminator_addcslashes( $value, $char = '"\\/' ) {
 function forminator_get_link( $link_for, $campaign = '', $adv_path = '' ) {
 	$domain   = 'https://wpmudev.com';
 	$wp_org   = 'https://wordpress.org';
-	$utm_tags = "?coupon=FORMINATOR-SUBSCRIPTIONS&checkout=0&utm_source=forminator&utm_medium=plugin&utm_campaign={$campaign}";
+	$utm_tags = "?utm_source=forminator&utm_medium=plugin&utm_campaign={$campaign}";
 
 	switch ( $link_for ) {
 		case 'docs':

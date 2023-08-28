@@ -30,7 +30,6 @@ if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 	$features     = array_chunk( $res->features, $chunk_size );
 }
 $addon_slug = Forminator_Admin_Addons_page::get_addon_slug( $pid );
-$coupon     = Forminator_Admin_Addons_page::project_coupon( $addon_slug );
 ?>
 
 <div class="sui-modal sui-modal-lg">
@@ -112,7 +111,7 @@ $coupon     = Forminator_Admin_Addons_page::project_coupon( $addon_slug );
 
 						<?php if ( ! FORMINATOR_PRO ) { ?>
 							<a
-								href="https://wpmudev.com/project/forminator-pro/?coupon=<?php echo esc_html( $coupon ); ?>&checkout=0&utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_<?php echo esc_html( $addon_slug ); ?>-addon"
+								href="https://wpmudev.com/project/forminator-pro/?utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_<?php echo esc_html( $addon_slug ); ?>-addon"
 								target="_blank"
 								class="sui-button sui-button-purple"
 							>
@@ -331,7 +330,7 @@ $coupon     = Forminator_Admin_Addons_page::project_coupon( $addon_slug );
 					class="sui-button sui-button-purple"
 					style="margin-right: 0;"
 					target="_blank"
-					href="https://wpmudev.com/project/forminator-pro/?coupon=<?php echo esc_html( $coupon ); ?>&checkout=0&utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_<?php echo esc_html( $addon_slug ); ?>-addon"
+					href="https://wpmudev.com/project/forminator-pro/?utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_<?php echo esc_html( $addon_slug ); ?>-addon"
 				>
 					<?php echo $addon_data['button_text']; // Escaped already. ?>
 				</a>

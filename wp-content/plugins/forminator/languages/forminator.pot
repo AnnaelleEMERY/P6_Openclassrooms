@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Forminator package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Forminator 1.25.1\n"
+"Project-Id-Version: Forminator 1.25.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/build\n"
-"POT-Creation-Date: 2023-08-18 08:30:00+00:00\n"
+"POT-Creation-Date: 2023-08-23 06:54:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -687,7 +687,7 @@ msgstr ""
 #: addons/pro/trello/views/settings/success-authorize.php:15
 #: addons/pro/webhook/class-forminator-addon-webhook.php:167
 #: admin/classes/class-admin-l10n.php:84 admin/locale.php:1369
-#: admin/views/addons/addon-details.php:284
+#: admin/views/addons/addon-details.php:283
 #: admin/views/addons/addons-activate-popup.php:37
 #: admin/views/common/popup/export.php:59
 #: admin/views/custom-form/popup/import-cf7.php:495
@@ -2264,7 +2264,7 @@ msgstr ""
 
 #: addons/pro/hubspot/class-forminator-addon-hubspot-form-settings.php:443
 #: addons/pro/hubspot/class-forminator-addon-hubspot-quiz-settings.php:464
-#: admin/locale.php:850 admin/views/addons/addon-details.php:98
+#: admin/locale.php:850 admin/views/addons/addon-details.php:97
 #: admin/views/addons/addons-list.php:170
 #: admin/views/settings/appearance-presets-status-bar.php:80
 msgid "Update"
@@ -5669,7 +5669,7 @@ msgid "Image (optional)"
 msgstr ""
 
 #: admin/classes/class-admin-l10n.php:291 admin/locale.php:72
-#: admin/views/addons/addon-details.php:182
+#: admin/views/addons/addon-details.php:181
 #: library/field-autofill-providers/class-wp-user.php:47
 #: library/modules/polls/admin/admin-loader.php:191
 #: library/modules/quizzes/admin/admin-loader.php:654
@@ -6425,7 +6425,7 @@ msgid "Go to Forminator Settings"
 msgstr ""
 
 #: admin/classes/class-admin.php:747
-msgid "Upgrade 30% OFF Sale"
+msgid "Upgrade For 60% Off!"
 msgstr ""
 
 #: admin/classes/class-admin.php:750
@@ -6660,12 +6660,12 @@ msgstr ""
 msgid "Hover"
 msgstr ""
 
-#: admin/locale.php:57 admin/views/addons/addon-details.php:86
+#: admin/locale.php:57 admin/views/addons/addon-details.php:85
 #: admin/views/addons/addons-list.php:21
 msgid "Active"
 msgstr ""
 
-#: admin/locale.php:58 admin/views/addons/addon-details.php:239
+#: admin/locale.php:58 admin/views/addons/addon-details.php:238
 #: library/lib/dash-notice/wpmudev-dash-notification.php:1256
 msgid "Current"
 msgstr ""
@@ -11947,7 +11947,7 @@ msgstr ""
 msgid "You’ve already reached submissions limit."
 msgstr ""
 
-#: admin/locale.php:1312 admin/views/addons/addon-details.php:143
+#: admin/locale.php:1312 admin/views/addons/addon-details.php:142
 #: admin/views/addons/addons-list.php:153
 #: library/modules/polls/admin/admin-loader.php:186
 #: library/modules/polls/admin/admin-loader.php:189
@@ -14086,7 +14086,7 @@ msgid "Don't worry, only admin users can see this message"
 msgstr ""
 
 #: admin/locale.php:2323
-msgid "Get 30% OFF Forminator Pro"
+msgid "Get 60% OFF Forminator Pro"
 msgstr ""
 
 #: admin/locale.php:2324
@@ -14100,7 +14100,7 @@ msgstr ""
 #: admin/locale.php:2326
 msgid ""
 "Start collecting subscription payments in Forminator Pro with the new "
-"Stripe Subscription add-on! Upgrade now and get 30% OFF all annual plans."
+"Stripe Subscription add-on! Upgrade now and get 60% OFF all annual plans."
 msgstr ""
 
 #: admin/locale.php:2327
@@ -14141,7 +14141,7 @@ msgstr ""
 msgid "Connect to WPMU DEV to unlock features for free."
 msgstr ""
 
-#: admin/locale.php:2336 admin/views/addons/addon-details.php:276
+#: admin/locale.php:2336 admin/views/addons/addon-details.php:275
 msgid "Documentation"
 msgstr ""
 
@@ -14375,7 +14375,7 @@ msgstr ""
 msgid "Default Preset"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:68
+#: admin/views/addons/addon-details.php:67
 #: admin/views/addons/addons-list.php:12
 #: admin/views/dashboard/new-feature-notice.php:38
 #: admin/views/integrations/addon.php:142
@@ -14383,9 +14383,9 @@ msgstr ""
 msgid "PRO"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:78
-#: admin/views/addons/addon-details.php:106
-#: admin/views/addons/addon-details.php:237
+#: admin/views/addons/addon-details.php:77
+#: admin/views/addons/addon-details.php:105
+#: admin/views/addons/addon-details.php:236
 #: admin/views/addons/addons-list.php:178
 #: library/lib/dash-notice/wpmudev-dash-notification.php:1279
 #. translators: %s: Installed version
@@ -14396,29 +14396,29 @@ msgstr ""
 msgid "Version %s"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:82
+#: admin/views/addons/addon-details.php:81
 #: admin/views/addons/addons-list.php:127
 #. translators: %s: Latest version.
 #. translators: Plugin latest version
 msgid "v%s update available"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:119
+#: admin/views/addons/addon-details.php:118
 #: admin/views/dashboard/widgets/widget-upgrade.php:40
 #: admin/views/upgrade/upgrade-content.php:24
 #: admin/views/upgrade/upgrade-content.php:125
 msgid "Upgrade to Pro"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:155
+#: admin/views/addons/addon-details.php:154
 msgid "Features"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:167
+#: admin/views/addons/addon-details.php:166
 msgid "Changelog"
 msgstr ""
 
-#: admin/views/addons/addon-details.php:323
+#: admin/views/addons/addon-details.php:322
 msgid "Close this modal"
 msgstr ""
 

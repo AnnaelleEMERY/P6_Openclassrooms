@@ -2320,10 +2320,10 @@ Zimbabwe", "forminator" ), ), // src/settings/inputs/sui-variables-bulk-editor.j
 "Insert form fields" => array( null, __("Insert form fields", "forminator" ), ), // src/settings/inputs/wp-editor.js:387
 "Don't Miss Out On Subscription / Recurring Payment Support" => array( null, __("Don't Miss Out On Subscription / Recurring Payment Support", "forminator" ), ), // src/shared/discount.js:31
 "Don't worry, only admin users can see this message" => array( null, __("Don't worry, only admin users can see this message", "forminator" ), ), // src/shared/discount.js:32
-"Get 30% OFF Forminator Pro" => array( null, __("Get 30% OFF Forminator Pro", "forminator" ), ), // src/shared/discount.js:37
+"Get 60% OFF Forminator Pro" => array( null, __("Get 60% OFF Forminator Pro", "forminator" ), ), // src/shared/discount.js:37
 "Pay only" => array( null, __("Pay only", "forminator" ), ), // src/shared/discount.js:41
 "year" => array( null, __("year", "forminator" ), ), // src/shared/discount.js:42
-"Start collecting subscription payments in Forminator Pro with the new Stripe Subscription add-on! Upgrade now and get 30% OFF all annual plans." => array( null, __("Start collecting subscription payments in Forminator Pro with the new Stripe Subscription add-on! Upgrade now and get 30% OFF all annual plans.", "forminator" ), ), // src/shared/discount.js:44
+"Start collecting subscription payments in Forminator Pro with the new Stripe Subscription add-on! Upgrade now and get 60% OFF all annual plans." => array( null, __("Start collecting subscription payments in Forminator Pro with the new Stripe Subscription add-on! Upgrade now and get 60% OFF all annual plans.", "forminator" ), ), // src/shared/discount.js:44
 "Hosting by the Same People Behind Forminator!" => array( null, __("Hosting by the Same People Behind Forminator!", "forminator" ), ), // src/shared/hosting-banner.js:34
 "Only admin users can see this message" => array( null, __("Only admin users can see this message", "forminator" ), ), // src/shared/hosting-banner.js:37
 "Claim Your 50% Off Hosting Now!" => array( null, __("Claim Your 50% Off Hosting Now!", "forminator" ), ), // src/shared/hosting-banner.js:38
