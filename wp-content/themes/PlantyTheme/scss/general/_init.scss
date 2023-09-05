@@ -32,9 +32,10 @@ h1 {
     font-size: 3.8rem;
     font-weight: 800;
     line-height: 4.56rem;
+    font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -42,11 +43,12 @@ h1 {
 h2 {
     color: $primaryColor;
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 700 !important;
     line-height: 3.6rem;
+    font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
 }
 
@@ -56,10 +58,15 @@ h3 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.6rem;
+    font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
+}
+
+p {
+    margin-bottom: 0rem !important;
 }
 
 ul,

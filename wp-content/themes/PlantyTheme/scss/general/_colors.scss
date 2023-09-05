@@ -41,7 +41,11 @@
 }
 
 .bg-secondary {
-    background-color: $secondaryColor;
+    background-color: $secondaryColor !important;
+}
+
+.bg-tertiary {
+    background-color: $tertiaryColor !important;
 }
 
 .bg-btn-primary {

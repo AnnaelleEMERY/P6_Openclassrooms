@@ -9746,6 +9746,18 @@ figure img {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Syne";
+  src: url("../fonts/Syne-Bold.woff2") format("woff2"), url("../fonts/Syne-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Syne";
+  src: url("../fonts/Syne-ExtraBold.woff2") format("woff2"), url("../fonts/Syne-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
 .logo {
   max-width: 20rem;
   width: 100%;
@@ -9923,7 +9935,11 @@ figure img {
 }
 
 .bg-secondary {
-  background-color: #ece2da;
+  background-color: #ece2da !important;
+}
+
+.bg-tertiary {
+  background-color: #3b8e46 !important;
 }
 
 .bg-btn-primary {
@@ -9974,11 +9990,12 @@ h1 {
   font-size: 3.8rem;
   font-weight: 800;
   line-height: 4.56rem;
+  font-family: "Syne";
 }
 @media (max-width: 767.98px) {
   .h1,
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -9986,13 +10003,14 @@ h1 {
 h2 {
   color: #d2776a;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700 !important;
   line-height: 3.6rem;
+  font-family: "Syne";
 }
 @media (max-width: 767.98px) {
   .h2,
   h2 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -10002,12 +10020,17 @@ h3 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.6rem;
+  font-family: "Syne";
 }
 @media (max-width: 767.98px) {
   .h3,
   h3 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
+}
+
+p {
+  margin-bottom: 0rem !important;
 }
 
 ul,
@@ -10076,6 +10099,75 @@ footer .menu-menu-footer-container .footer-nav li {
 }
 footer .menu-menu-footer-container .footer-nav li a:hover {
   color: #3b8e46;
+}
+
+.commander-main {
+  color: #ffffff;
+}
+.commander-main .h1-commander {
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+.commander-main .white-border-top-bottom {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.commander-main .quantity {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.commander-main .quantity input {
+  margin-top: 2rem;
+  width: 65%;
+  height: 100%;
+  line-height: 1.65;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 30%;
+  border: 1px solid #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 2rem;
+}
+.commander-main .quantity input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+}
+.commander-main .quantity input:focus {
+  outline: 0;
+}
+.commander-main .quantity .input-number-buttons .plus-less-buttons {
+  text-decoration: none;
+  background-color: #dc9f96;
+  width: 100%;
+  padding: 1rem;
+}
+.commander-main .quantity .input-number-buttons .plus-button {
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+.commander-main .quantity .input-number-buttons .plus-button:hover {
+  background-color: #e0b9b4;
+}
+.commander-main .quantity .input-number-buttons .less-button {
+  border-bottom-right-radius: 5px;
+}
+.commander-main .quantity .input-number-buttons .less-button:hover {
+  background-color: #e0b9b4;
+}
+.commander-main .ok-button {
+  border-radius: 5px;
+  background-color: #e0b9b4;
+  color: #ffffff;
+  width: 100%;
+  text-decoration: none;
+}
+.commander-main .ok-button:hover {
+  background-color: #dc9f96;
 }
 
 /*# sourceMappingURL=global.css.map */
