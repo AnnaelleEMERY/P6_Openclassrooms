@@ -19,13 +19,6 @@
             }
             ?>
 
-
-            <div class="admin-button">
-                <a class="d-flex align-items-center" href="#">
-                    <p>Admin</p>
-                </a>
-            </div>
-
             <button class="commander-button" type="button">commander</button>
         </div>
     </div>

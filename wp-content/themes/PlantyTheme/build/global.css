@@ -10068,8 +10068,12 @@ a :hover {
   color: #3b8e46 !important;
 }
 
+header .menu-menu-principal-container .main-nav {
+  display: flex !important;
+}
 header .menu-menu-principal-container .main-nav li {
   padding-bottom: 0.1rem !important;
+  padding-right: 4rem !important;
 }
 header .menu-menu-principal-container .main-nav li a:hover {
   color: #3b8e46;

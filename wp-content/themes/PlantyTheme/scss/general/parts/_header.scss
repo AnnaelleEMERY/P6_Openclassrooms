@@ -1,9 +1,14 @@
 header {
-    .menu-menu-principal-container .main-nav li {
-        padding-bottom: 0.1rem !important;
+    .menu-menu-principal-container .main-nav {
+        display: flex !important;
 
-        a:hover {
-            color: $tertiaryColor;
+        li {
+            padding-bottom: 0.1rem !important;
+            padding-right: 4rem !important;
+
+            a:hover {
+                color: $tertiaryColor;
+            }
         }
     }
 
