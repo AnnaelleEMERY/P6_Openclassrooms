@@ -1,6 +1,8 @@
-.logo {
-    max-width: 20rem;
-    width: 100%;
+/* WIDTHS */
+.w-md-100 {
+    @include media-breakpoint-down(md) {
+        width: 100% !important;
+    }
 }
 
 /* PADDINGS ET MARGINS */
@@ -12,6 +14,11 @@
 }
 .ps-3 {
     padding-left: 3rem !important;
+}
+.ps-md-3 {
+    @include media-breakpoint-up(md) {
+        padding-left: 3rem !important;
+    }
 }
 .ps-4 {
     padding-left: 4rem !important;

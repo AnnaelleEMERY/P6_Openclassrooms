@@ -35,7 +35,7 @@ h1 {
     font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -48,7 +48,7 @@ h2 {
     font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -61,7 +61,7 @@ h3 {
     font-family: "Syne";
 
     @include media-breakpoint-down(md) {
-        font-size: 2.3rem;
+        font-size: 1.7rem;
     }
 }
 

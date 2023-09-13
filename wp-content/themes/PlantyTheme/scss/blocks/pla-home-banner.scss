@@ -1,0 +1,26 @@
+.pla-home-banner {
+    border-radius: 0% 0% 19% 19% / 0% 0% 4% 4%;
+    border-bottom: 5px solid $shadowColor;
+
+    .h1-banner {
+        max-width: 75rem !important;
+        width: 100%;
+        text-transform: uppercase;
+    }
+
+    .canette {
+        z-index: 2;
+    }
+
+    .feuilles-gauche {
+        z-index: 1;
+        position: relative;
+        right: -17%;
+    }
+
+    .feuilles-droite {
+        z-index: 1;
+        position: relative;
+        left: -17%;
+    }
+}

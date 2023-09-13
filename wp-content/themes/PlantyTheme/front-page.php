@@ -6,9 +6,7 @@ get_template_part('template-parts/header');
 ?>
 
 <main>
-    <div class="container">
-        <?php echo the_content(); ?>
-    </div>
+    <?php echo the_content(); ?>
 </main>
 
 

@@ -9758,9 +9758,11 @@ figure img {
   font-weight: 800;
   font-style: normal;
 }
-.logo {
-  max-width: 20rem;
-  width: 100%;
+/* WIDTHS */
+@media (max-width: 767.98px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
 }
 
 /* PADDINGS ET MARGINS */
@@ -9774,6 +9776,12 @@ figure img {
 
 .ps-3 {
   padding-left: 3rem !important;
+}
+
+@media (min-width: 768px) {
+  .ps-md-3 {
+    padding-left: 3rem !important;
+  }
 }
 
 .ps-4 {
@@ -9995,7 +10003,7 @@ h1 {
 @media (max-width: 767.98px) {
   .h1,
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -10010,7 +10018,7 @@ h2 {
 @media (max-width: 767.98px) {
   .h2,
   h2 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -10025,7 +10033,7 @@ h3 {
 @media (max-width: 767.98px) {
   .h3,
   h3 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -10068,12 +10076,28 @@ a :hover {
   color: #3b8e46 !important;
 }
 
+header .logo {
+  max-width: 20rem;
+  width: 100%;
+}
+@media (max-width: 767.98px) {
+  header .logo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
 header .menu-menu-principal-container .main-nav {
   display: flex !important;
 }
 header .menu-menu-principal-container .main-nav li {
   padding-bottom: 0.1rem !important;
   padding-right: 4rem !important;
+}
+@media (max-width: 767.98px) {
+  header .menu-menu-principal-container .main-nav li {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 }
 header .menu-menu-principal-container .main-nav li a:hover {
   color: #3b8e46;
@@ -10090,6 +10114,12 @@ header .commander-button {
   font-family: "Syne";
   letter-spacing: 0rem;
   font-size: 1.6rem;
+}
+@media (max-width: 575.98px) {
+  header .commander-button {
+    padding: 1.5rem 2rem !important;
+    margin-top: 2rem;
+  }
 }
 header .commander-button:hover {
   background-color: #c02e44;
@@ -10172,6 +10202,29 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
 }
 .commander-main .ok-button:hover {
   background-color: #dc9f96;
+}
+
+.pla-home-banner {
+  border-radius: 0% 0% 19% 19%/0% 0% 4% 4%;
+  border-bottom: 5px solid #e3d9d0;
+}
+.pla-home-banner .h1-banner {
+  max-width: 75rem !important;
+  width: 100%;
+  text-transform: uppercase;
+}
+.pla-home-banner .canette {
+  z-index: 2;
+}
+.pla-home-banner .feuilles-gauche {
+  z-index: 1;
+  position: relative;
+  right: -17%;
+}
+.pla-home-banner .feuilles-droite {
+  z-index: 1;
+  position: relative;
+  left: -17%;
 }
 
 /*# sourceMappingURL=global.css.map */
