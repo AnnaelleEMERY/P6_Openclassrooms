@@ -9,18 +9,45 @@
     }
 
     .canette {
+        max-width: 39rem;
         z-index: 2;
     }
 
     .feuilles-gauche {
+        max-width: 35rem;
         z-index: 1;
         position: relative;
-        right: -17%;
+        right: -12%;
+
+        @media (max-width: 1540px) {
+            right: -14%;
+        }
+
+        @media (max-width: 1340px) {
+            right: -16%;
+        }
+
+        @media (max-width: 1140px) {
+            right: -18%;
+        }
     }
 
     .feuilles-droite {
+        max-width: 35rem;
         z-index: 1;
         position: relative;
-        left: -17%;
+        left: -12%;
+
+        @media (max-width: 1540px) {
+            left: -14%;
+        }
+
+        @media (max-width: 1340px) {
+            left: -16%;
+        }
+
+        @media (max-width: 1140px) {
+            left: -18%;
+        }
     }
 }

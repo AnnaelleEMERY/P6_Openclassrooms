@@ -10214,17 +10214,50 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
   text-transform: uppercase;
 }
 .pla-home-banner .canette {
+  max-width: 39rem;
   z-index: 2;
 }
 .pla-home-banner .feuilles-gauche {
+  max-width: 35rem;
   z-index: 1;
   position: relative;
-  right: -17%;
+  right: -12%;
+}
+@media (max-width: 1540px) {
+  .pla-home-banner .feuilles-gauche {
+    right: -14%;
+  }
+}
+@media (max-width: 1340px) {
+  .pla-home-banner .feuilles-gauche {
+    right: -16%;
+  }
+}
+@media (max-width: 1140px) {
+  .pla-home-banner .feuilles-gauche {
+    right: -18%;
+  }
 }
 .pla-home-banner .feuilles-droite {
+  max-width: 35rem;
   z-index: 1;
   position: relative;
-  left: -17%;
+  left: -12%;
+}
+@media (max-width: 1540px) {
+  .pla-home-banner .feuilles-droite {
+    left: -14%;
+  }
+}
+@media (max-width: 1340px) {
+  .pla-home-banner .feuilles-droite {
+    left: -16%;
+  }
+}
+@media (max-width: 1140px) {
+  .pla-home-banner .feuilles-droite {
+    left: -18%;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */
