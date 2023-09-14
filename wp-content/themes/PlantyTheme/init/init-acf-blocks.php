@@ -82,6 +82,22 @@ function capitaine_register_acf_block_types()
             );
         }
     ));
+
+    acf_register_block_type(array(
+        'name'              => 'pla-tastes',
+        'title'             => 'PLA - Tastes',
+        'description'       => "",
+        'render_template'   => './template-parts/blocks/pla-tastes.php',
+        'category'          => 'planty',
+        'icon'              => 'admin-plugins',
+        'keywords'          => array('tastes', 'gouts'),
+        'enqueue_assets'    => function () {
+            wp_enqueue_style(
+                'pla-blocks',
+                get_template_directory_uri() . '/scss/blocks/pla-tastes.scss'
+            );
+        }
+    ));
 }
 
 add_action('acf/init', 'capitaine_register_acf_block_types');

@@ -9788,6 +9788,10 @@ figure img {
   padding-left: 4rem !important;
 }
 
+.ps-5 {
+  padding-left: 5rem !important;
+}
+
 .pe-1 {
   padding-right: 1rem !important;
 }
@@ -9802,6 +9806,10 @@ figure img {
 
 .pe-4 {
   padding-right: 4rem !important;
+}
+
+.pe-5 {
+  padding-right: 5rem !important;
 }
 
 .pt-1 {
@@ -9820,6 +9828,10 @@ figure img {
   padding-top: 4rem !important;
 }
 
+.pt-5 {
+  padding-top: 5rem !important;
+}
+
 .pb-1 {
   padding-bottom: 1rem !important;
 }
@@ -9834,6 +9846,10 @@ figure img {
 
 .pb-4 {
   padding-bottom: 4rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 5rem !important;
 }
 
 .ms-1 {
@@ -9852,6 +9868,10 @@ figure img {
   margin-left: 4rem !important;
 }
 
+.ms-5 {
+  margin-left: 5rem !important;
+}
+
 .me-1 {
   margin-right: 1rem !important;
 }
@@ -9866,6 +9886,10 @@ figure img {
 
 .me-4 {
   margin-right: 4rem !important;
+}
+
+.me-5 {
+  margin-right: 5rem !important;
 }
 
 .mt-1 {
@@ -9884,6 +9908,10 @@ figure img {
   margin-top: 4rem !important;
 }
 
+.mt-5 {
+  margin-top: 5rem !important;
+}
+
 .mb-1 {
   margin-bottom: 1rem !important;
 }
@@ -9898,6 +9926,15 @@ figure img {
 
 .mb-4 {
   margin-bottom: 4rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 5rem !important;
+}
+
+/* TEXT MODIFICATIONS */
+.text-uppercase {
+  text-transform: uppercase !important;
 }
 
 /* FONT COLOR */

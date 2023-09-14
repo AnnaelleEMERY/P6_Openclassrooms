@@ -22,7 +22,7 @@
             </div>
 
 
-            <button class="commander-button" type="button">commander</button>
+            <button class="commander-button" type="button" onclick="window.location.href='http://localhost/P6_Openclassrooms/commander';">commander</button>
         </div>
     </div>
 </header>
