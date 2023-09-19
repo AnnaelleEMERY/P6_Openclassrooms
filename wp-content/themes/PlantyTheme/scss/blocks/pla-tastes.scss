@@ -1,0 +1,21 @@
+.pla-tastes {
+    border-radius: 10% 10% 33% 33% / 0% 0% 2% 2%;
+
+    .h2-like-h1 {
+        font-weight: 800 !important;
+        font-size: 3rem !important;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.7rem !important;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .fruits-grid {
+            max-width: 77rem;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

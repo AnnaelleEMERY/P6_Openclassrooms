@@ -22,7 +22,7 @@
             </div>
 
 
-            <button class="commander-button" type="button" onclick="window.location.href='http://localhost/P6_Openclassrooms/commander';">commander</button>
+            <a class="<?php echo $bg_color ?>" href="<?php echo $btn_link ?>"><?php echo $btn_title ?></a>
         </div>
     </div>
 </header>

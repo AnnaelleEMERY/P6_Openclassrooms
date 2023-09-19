@@ -67,6 +67,11 @@ h3 {
 
 p {
     margin-bottom: 0rem !important;
+
+    @include media-breakpoint-down(sm) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 ul,

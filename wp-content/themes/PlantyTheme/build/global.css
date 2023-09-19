@@ -9937,6 +9937,23 @@ figure img {
   text-transform: uppercase !important;
 }
 
+/* BUTTONS */
+.btn-primary {
+  border-radius: 5px;
+  background-color: #e0b9b4;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.btn-primary:hover {
+  background-color: #c02e44;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* FONT COLOR */
 .color-white {
   color: #ffffff !important;
@@ -10076,6 +10093,12 @@ h3 {
 
 p {
   margin-bottom: 0rem !important;
+}
+@media (max-width: 575.98px) {
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 ul,
@@ -10294,6 +10317,27 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
 @media (max-width: 1140px) {
   .pla-home-banner .feuilles-droite {
     left: -18%;
+  }
+}
+
+.pla-tastes {
+  border-radius: 10% 10% 33% 33%/0% 0% 2% 2%;
+}
+.pla-tastes .h2-like-h1 {
+  font-weight: 800 !important;
+  font-size: 3rem !important;
+}
+@media (max-width: 575.98px) {
+  .pla-tastes .h2-like-h1 {
+    font-size: 1.7rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .pla-tastes .fruits-grid {
+    max-width: 77rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

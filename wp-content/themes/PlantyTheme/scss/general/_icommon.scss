@@ -143,3 +143,21 @@
 .text-uppercase {
     text-transform: uppercase !important;
 }
+
+/* BUTTONS */
+.btn-primary {
+    border-radius: 5px;
+    background-color: $buttonSecColor;
+    color: $white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    &:hover {
+        background-color: $hoverColor;
+        color: $white;
+        text-decoration: none;
+    }
+}
