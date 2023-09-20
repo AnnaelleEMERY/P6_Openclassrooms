@@ -22,7 +22,7 @@
             </div>
 
 
-            <a class="<?php echo $bg_color ?>" href="<?php echo $btn_link ?>"><?php echo $btn_title ?></a>
+            <a class="<?php echo $bg_color ?> commander-button" href="/P6_Openclassrooms/commander/">Commander</a>
         </div>
     </div>
 </header>
