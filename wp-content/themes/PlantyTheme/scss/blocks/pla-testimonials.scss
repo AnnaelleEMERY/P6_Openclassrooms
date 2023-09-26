@@ -1,0 +1,36 @@
+.pla-testimonials {
+    @include media-breakpoint-down(lg) {
+        .columns-testimonials {
+            &:last-child {
+                width: 100% !important;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .columns-testimonials {
+            width: 100% !important;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    .testimonials-img {
+        max-width: 12.6rem !important;
+        width: 100% !important;
+    }
+
+    .testimonials-text {
+        max-width: 22rem;
+        width: 100%;
+    }
+
+    h3 {
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+}

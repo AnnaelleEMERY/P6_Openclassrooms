@@ -1,9 +1,9 @@
 {
-    "key": "group_65006523d2502",
+    "key": "group_6512e49640752",
     "title": "PLA - témoignages",
     "fields": [
         {
-            "key": "field_65006524d8b49",
+            "key": "field_6512e4981616f",
             "label": "Titre",
             "name": "pla-testimonials_title",
             "aria-label": "",
@@ -23,13 +23,13 @@
             "append": ""
         },
         {
-            "key": "field_65006551d8b4a",
-            "label": "Repeater",
+            "key": "field_6512e5a916170",
+            "label": "Répétiteur",
             "name": "pla-testimonials_repeater",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -45,9 +45,9 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
-                    "key": "field_6500656ad8b4b",
-                    "label": "Photo",
-                    "name": "pla-testimonials_image",
+                    "key": "field_6512e5d016171",
+                    "label": "Image du témoin",
+                    "name": "pla-testimonials_repeater_image",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -68,12 +68,12 @@
                     "max_size": "",
                     "mime_types": "",
                     "preview_size": "medium",
-                    "parent_repeater": "field_65006551d8b4a"
+                    "parent_repeater": "field_6512e5a916170"
                 },
                 {
-                    "key": "field_650065aed8b4c",
-                    "label": "Nom",
-                    "name": "pla-testimonials_name",
+                    "key": "field_6512e62716172",
+                    "label": "Nom du témoin",
+                    "name": "pla-testimonials_repeater_name",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -85,16 +85,16 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "maxlength": 40,
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "parent_repeater": "field_65006551d8b4a"
+                    "parent_repeater": "field_6512e5a916170"
                 },
                 {
-                    "key": "field_650065c1d8b4d",
+                    "key": "field_6512e64916173",
                     "label": "Témoignage",
-                    "name": "pla-testimonials_testimonial",
+                    "name": "pla-testimonials_repeater_testimonial",
                     "aria-label": "",
                     "type": "textarea",
                     "instructions": "",
@@ -106,11 +106,11 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "maxlength": 500,
+                    "maxlength": "",
                     "rows": "",
                     "placeholder": "",
                     "new_lines": "",
-                    "parent_repeater": "field_65006551d8b4a"
+                    "parent_repeater": "field_6512e5a916170"
                 }
             ]
         }
@@ -133,5 +133,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694526447
+    "modified": 1695739402
 }

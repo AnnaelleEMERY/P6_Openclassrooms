@@ -5,7 +5,7 @@
         {
             "key": "field_65007001e7206",
             "label": "Poste",
-            "name": "PLA-team_post",
+            "name": "pla-team_post",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -41,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694527586
+    "modified": 1695737224
 }

@@ -9765,6 +9765,10 @@ figure img {
   }
 }
 
+.h-auto {
+  height: auto !important;
+}
+
 /* PADDINGS ET MARGINS */
 .ps-1 {
   padding-left: 1rem !important;
@@ -9930,6 +9934,10 @@ figure img {
 
 .mb-5 {
   margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 8rem !important;
 }
 
 /* TEXT MODIFICATIONS */
@@ -10318,6 +10326,35 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
   .pla-home-banner .feuilles-droite {
     left: -18%;
   }
+}
+
+@media (max-width: 991.98px) {
+  .pla-testimonials .columns-testimonials:last-child {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+@media (max-width: 575.98px) {
+  .pla-testimonials .columns-testimonials {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+.pla-testimonials .testimonials-img {
+  max-width: 12.6rem !important;
+  width: 100% !important;
+}
+.pla-testimonials .testimonials-text {
+  max-width: 22rem;
+  width: 100%;
+}
+.pla-testimonials h3, .pla-testimonials .h3 {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
 }
 
 .pla-tastes {
