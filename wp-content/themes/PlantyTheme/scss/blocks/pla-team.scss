@@ -1,0 +1,60 @@
+.pla-team {
+    h2 {
+        font-weight: 700 !important;
+    }
+
+    h3 {
+        font-size: 2rem;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.8rem;
+        }
+    }
+
+    .team-images {
+        max-width: 16.7rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include media-breakpoint-down(lg) {
+        .columns-team {
+            &:last-child {
+                width: 100% !important;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .columns-team {
+            width: 100% !important;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    .leaf-team {
+        max-width: 19.1rem !important;
+        width: 100% !important;
+        margin-left: auto;
+        margin-top: -11rem;
+
+        @media (max-width: 1100px) {
+            max-width: 14.1rem !important;
+            margin-top: -11rem;
+        }
+
+        @include media-breakpoint-down(lg) {
+            max-width: 19.1rem !important;
+        }
+
+        @include media-breakpoint-down(md) {
+            display: none !important;
+        }
+    }
+}

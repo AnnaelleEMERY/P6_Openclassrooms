@@ -24,7 +24,7 @@
         },
         {
             "key": "field_6500816be0893",
-            "label": "Collaborateur",
+            "label": "Collaborateurs",
             "name": "pla-team_teammate",
             "aria-label": "",
             "type": "relationship",
@@ -70,5 +70,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694532039
+    "modified": 1695747935
 }
