@@ -10328,6 +10328,31 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
   }
 }
 
+.pla-meeting-banner {
+  border-radius: 10% 10% 50% 50%/0% 0% 9% 9%;
+}
+.pla-meeting-banner .meeting-flower {
+  position: absolute;
+  max-width: 14.5rem;
+  width: 100% !important;
+  top: 12rem;
+}
+@media (max-width: 991.98px) {
+  .pla-meeting-banner .meeting-flower {
+    max-width: 8.5rem;
+    top: 13rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .pla-meeting-banner .meeting-flower {
+    display: none;
+  }
+}
+.pla-meeting-banner .meeting-text {
+  max-width: 67rem;
+  width: 100%;
+}
+
 @media (max-width: 991.98px) {
   .pla-testimonials .columns-testimonials:last-child {
     width: 100% !important;
