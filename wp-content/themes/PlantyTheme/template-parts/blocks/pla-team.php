@@ -31,7 +31,7 @@ $collabs = get_field('pla-team_teammate') ?: [];
 
     <div class="container d-flex flex-column text-center justify-content-center align-items-center">
 
-        <h2 class="color-black mb-3"><?php echo $title ?></h2>
+        <h2 class="color-black mb-5"><?php echo $title ?></h2>
 
         <div class="row w-100">
 
