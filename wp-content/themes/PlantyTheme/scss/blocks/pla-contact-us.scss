@@ -19,20 +19,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        .wpcf7-submit {
-            padding: 2rem 5rem;
-            font-size: 1.5rem;
-            text-transform: none;
-            text-decoration: none;
-            border-radius: 5px;
-            background-color: $buttonSecColor;
-
-            &:hover {
-                background-color: $hoverColor;
-                text-decoration: none;
-            }
-        }
     }
 
     form {

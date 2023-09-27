@@ -9962,6 +9962,20 @@ figure img {
   text-decoration: none;
 }
 
+/* Boutons submit des formulaires */
+.wpcf7-submit {
+  padding: 2rem 5rem !important;
+  font-size: 1.5rem !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+  background-color: #e0b9b4 !important;
+}
+.wpcf7-submit:hover {
+  background-color: #c02e44 !important;
+  text-decoration: none !important;
+}
+
 /* FONT COLOR */
 .color-white {
   color: #ffffff !important;
@@ -10290,18 +10304,6 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
   justify-content: center;
   align-items: center;
 }
-.pla-contact-us p .wpcf7-submit {
-  padding: 2rem 5rem;
-  font-size: 1.5rem;
-  text-transform: none;
-  text-decoration: none;
-  border-radius: 5px;
-  background-color: #e0b9b4;
-}
-.pla-contact-us p .wpcf7-submit:hover {
-  background-color: #c02e44;
-  text-decoration: none;
-}
 .pla-contact-us form {
   z-index: 2;
   position: relative;
@@ -10505,6 +10507,71 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.pla-commande-form input,
+.pla-commande-form textarea {
+  border-radius: 5px !important;
+  margin-top: 1rem;
+}
+.pla-commande-form label {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.pla-commande-form p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pla-commande-form .both-forms {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .pla-commande-form .both-forms {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0rem;
+    margin-bottom: 4rem;
+  }
+}
+.pla-commande-form .both-forms .first-form {
+  width: 100%;
+  padding-right: 4rem;
+  border-right: 1px solid #ffffff;
+}
+@media (max-width: 767.98px) {
+  .pla-commande-form .both-forms .first-form {
+    border-right: none;
+    padding-right: 0rem;
+    margin-bottom: 4rem;
+  }
+}
+.pla-commande-form .both-forms .second-form {
+  width: 100%;
+  padding-left: 4rem;
+}
+@media (max-width: 767.98px) {
+  .pla-commande-form .both-forms .second-form {
+    padding-left: 0rem;
+  }
+}
+.pla-commande-form .both-forms .second-form input {
+  /* Firefox */
+  -moz-appearance: textfield;
+  /* Chrome */
+  /* Opéra*/
+}
+.pla-commande-form .both-forms .second-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pla-commande-form .both-forms .second-form input::-o-inner-spin-button {
+  -o-appearance: none;
+  margin: 0;
 }
 
 /*# sourceMappingURL=global.css.map */

@@ -98,6 +98,38 @@ function capitaine_register_acf_block_types()
             );
         }
     ));
+
+    acf_register_block_type(array(
+        'name'              => 'pla-commande',
+        'title'             => 'PLA - Commande',
+        'description'       => "",
+        'render_template'   => './template-parts/blocks/pla-commande.php',
+        'category'          => 'planty',
+        'icon'              => 'admin-plugins',
+        'keywords'          => array('commande', 'fruits'),
+        'enqueue_assets'    => function () {
+            wp_enqueue_style(
+                'pla-blocks',
+                get_template_directory_uri() . '/scss/blocks/pla-commande.scss'
+            );
+        }
+    ));
+
+    acf_register_block_type(array(
+        'name'              => 'pla-commande-form',
+        'title'             => 'PLA - Formulaire de commande',
+        'description'       => "",
+        'render_template'   => './template-parts/blocks/pla-commande-form.php',
+        'category'          => 'planty',
+        'icon'              => 'admin-plugins',
+        'keywords'          => array('commande', 'formulaire'),
+        'enqueue_assets'    => function () {
+            wp_enqueue_style(
+                'pla-blocks',
+                get_template_directory_uri() . '/scss/blocks/pla-commande-form.scss'
+            );
+        }
+    ));
 }
 
 add_action('acf/init', 'capitaine_register_acf_block_types');

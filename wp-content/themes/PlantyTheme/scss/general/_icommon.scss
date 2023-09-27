@@ -168,3 +168,18 @@
         text-decoration: none;
     }
 }
+
+/* Boutons submit des formulaires */
+.wpcf7-submit {
+    padding: 2rem 5rem !important;
+    font-size: 1.5rem !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+    background-color: $buttonSecColor !important;
+
+    &:hover {
+        background-color: $hoverColor !important;
+        text-decoration: none !important;
+    }
+}
