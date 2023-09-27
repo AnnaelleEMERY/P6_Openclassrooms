@@ -1,0 +1,55 @@
+.pla-contact-us {
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    input,
+    textarea {
+        border-radius: 5px !important;
+        margin-top: 1rem;
+    }
+
+    label {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .wpcf7-submit {
+            padding: 2rem 5rem;
+            font-size: 1.5rem;
+            text-transform: none;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: $buttonSecColor;
+
+            &:hover {
+                background-color: $hoverColor;
+                text-decoration: none;
+            }
+        }
+    }
+
+    form {
+        z-index: 2;
+        position: relative;
+        margin-bottom: -5rem;
+    }
+
+    .contact-us-flower {
+        max-width: 14.7rem;
+        z-index: 1;
+        position: relative;
+        top: -14.5rem;
+        left: -7rem;
+
+        @include media-breakpoint-down(sm) {
+            left: -6rem;
+        }
+    }
+}

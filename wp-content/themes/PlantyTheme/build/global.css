@@ -10272,6 +10272,54 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
   background-color: #dc9f96;
 }
 
+.pla-contact-us h2, .pla-contact-us .h2 {
+  margin-bottom: 2rem;
+}
+.pla-contact-us input,
+.pla-contact-us textarea {
+  border-radius: 5px !important;
+  margin-top: 1rem;
+}
+.pla-contact-us label {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.pla-contact-us p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pla-contact-us p .wpcf7-submit {
+  padding: 2rem 5rem;
+  font-size: 1.5rem;
+  text-transform: none;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #e0b9b4;
+}
+.pla-contact-us p .wpcf7-submit:hover {
+  background-color: #c02e44;
+  text-decoration: none;
+}
+.pla-contact-us form {
+  z-index: 2;
+  position: relative;
+  margin-bottom: -5rem;
+}
+.pla-contact-us .contact-us-flower {
+  max-width: 14.7rem;
+  z-index: 1;
+  position: relative;
+  top: -14.5rem;
+  left: -7rem;
+}
+@media (max-width: 575.98px) {
+  .pla-contact-us .contact-us-flower {
+    left: -6rem;
+  }
+}
+
 .pla-home-banner {
   border-radius: 0% 0% 19% 19%/0% 0% 4% 4%;
   border-bottom: 5px solid #e3d9d0;
