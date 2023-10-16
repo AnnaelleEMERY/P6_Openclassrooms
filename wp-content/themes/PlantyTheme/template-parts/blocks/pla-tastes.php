@@ -59,7 +59,7 @@ $btn_link = get_field('pla-tastes_button-link') ?: 'Votre lien du bouton ici ...
 
         </div>
 
-        <button class="btn-primary" type="button" onclick="<?php echo $btn_link ?>"><?php echo $btn_title ?></button>
+        <a class="btn-primary" href="<?php echo $btn_link ?>"><?php echo $btn_title ?></a>
 
     </div>
 

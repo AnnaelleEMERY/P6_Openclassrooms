@@ -10508,6 +10508,23 @@ footer .menu-menu-footer-container .footer-nav li a:hover {
     margin-right: auto;
   }
 }
+.pla-tastes .btn-primary {
+  border-radius: 5px;
+  background-color: #e0b9b4;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.pla-tastes .btn-primary:hover {
+  background-color: #c02e44;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .pla-commande-form input,
 .pla-commande-form textarea {

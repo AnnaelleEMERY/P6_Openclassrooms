@@ -67,7 +67,7 @@
             "label": "Lien bouton",
             "name": "pla-tastes_button-link",
             "aria-label": "",
-            "type": "url",
+            "type": "link",
             "instructions": "",
             "required": 1,
             "conditional_logic": 0,
@@ -76,8 +76,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "return_format": "url"
         }
     ],
     "location": [
@@ -98,5 +97,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694697503
+    "modified": 1697439156
 }
